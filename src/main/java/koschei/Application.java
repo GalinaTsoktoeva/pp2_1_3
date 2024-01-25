@@ -11,5 +11,7 @@ public class Application {
         KoscheiTheDeathless koscheiTheDeathless =
                 applicationContext.getBean(KoscheiTheDeathless.class);
         System.out.println(koscheiTheDeathless.getRulesByDeth());
+//        Duck5 duck5 = applicationContext.getBean(Duck5.class);
+//        System.out.println(duck5);
     }
 }
